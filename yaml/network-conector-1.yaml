@@ -1,0 +1,13 @@
+metadata:
+  name: ce-snat
+  namespace: system
+  labels: {}
+  annotations: {}
+  description: null
+  disable: null
+spec:
+  sli_to_slo_snat:
+    default_gw_snat: {}
+    interface_ip: {}
+  disable_forward_proxy: {}
+resource_version: null

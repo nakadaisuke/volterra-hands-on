@@ -1,0 +1,35 @@
+metadata:
+  name: ce-fleet1
+  namespace: system
+  labels: {}
+  annotations: {}
+  description: null
+  disable: null
+spec:
+  volterra_software_version: null
+  network_connectors:
+    - kind: network_connector
+      uid: null
+      tenant: volt-field-vhptnhxg
+      namespace: system
+      name: ce-snat
+  network_firewall: null
+  operating_system_version: null
+  outside_virtual_network: null
+  inside_virtual_network: null
+  interface_list:
+    interfaces:
+      - tenant: volt-field-vhptnhxg
+        namespace: system
+        name: ce1-sli
+  no_bond_devices: {}
+  no_storage_interfaces: {}
+  no_storage_device: {}
+  default_storage_class: {}
+  no_dc_cluster_group: {}
+  disable_gpu: {}
+  no_storage_static_routes: {}
+  enable_default_fleet_config_download: null
+  logs_streaming_disabled: {}
+  deny_all_usb: {}
+resource_version: null

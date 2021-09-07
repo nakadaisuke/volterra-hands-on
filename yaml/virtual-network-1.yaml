@@ -1,0 +1,11 @@
+metadata:
+  name: vn-in
+  namespace: system
+  labels: {}
+  annotations: {}
+  description: null
+  disable: null
+spec:
+  site_local_inside_network: {}
+  static_routes: null
+resource_version: null

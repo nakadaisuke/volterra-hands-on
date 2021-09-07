@@ -1,0 +1,28 @@
+metadata:
+  name: ce1-sli
+  namespace: system
+  labels: {}
+  annotations: {}
+  description: null
+  disable: null
+spec:
+  ethernet_interface:
+    device: eth1
+    cluster: {}
+    untagged: {}
+    dhcp_server:
+      dhcp_networks:
+        - network_prefix: 192.168.1.0/24
+          pool_settings: INCLUDE_IP_ADDRESSES_FROM_DHCP_POOLS
+          pools: null
+          first_address: {}
+          same_as_dgw: {}
+      automatic_from_start: {}
+      fixed_ip_map: {}
+      dhcp_option82_tag: null
+    site_local_inside_network: {}
+    mtu: 0
+    priority: 0
+    not_primary: {}
+    monitor_disabled: {}
+resource_version: null
