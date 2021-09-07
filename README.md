@@ -17,7 +17,7 @@
 
 ## ハンズオントレーニングシナリオ
 
-1. vesctlの使用方法
+1. [vesctlの使用方法](<how-to_use_vesctl.md>)
 1. [Siteの作成(Multi NIC/Managed K8s/GPUなど)](<./how_to_create_site.md>)
 1. Site to Siteの暗号化トンネル通信
 1. Service policy/Network policyによる通信制御
