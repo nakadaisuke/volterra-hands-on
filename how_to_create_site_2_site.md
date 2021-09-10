@@ -154,6 +154,10 @@ Select Policy Rules: `Allowed connections`
     * Enter Domain: `Suffix Value`
       * Suffix Value: `volterra.io`
 
+Netwrok ConnectorでProxy Configurationを有効にします。
+
+* Select Forward Proxy: `Enable Forward Proxy`
+
 Network Firewall に作成したForward Proxyを設定します。
 
 * name: `nw-firewall1`
