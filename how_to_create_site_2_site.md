@@ -17,7 +17,7 @@ Network connectorでVirtual Networkの設定を作成すると、該当Siteの�
 2つのSiteを作成し、それぞれSite Local Insideにネットワークを接続します。それぞれのネットワークにはテスト用端末を接続します。テスト用端末にはDHCPでアドレスをアサインし、端末間の通信を行えるようにします。
 また、インターネットの通信は特定宛先(volterra.io)のみ許可します。
 
-![handson-view1]](./pics/handson-view1.png)
+![handson-view1](./pics/handson-view1.png)
 
 手順
 
