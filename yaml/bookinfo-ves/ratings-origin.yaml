@@ -1,0 +1,25 @@
+metadata:
+  name: ratings
+  namespace: demo-japan
+  labels: {}
+  annotations: {}
+  description: null
+  disable: null
+spec:
+  origin_servers:
+    - labels: {}
+      k8s_service:
+        service_name: ratings.demo-japan
+        site_locator:
+          virtual_site:
+            namespace: demo-japan
+            name: backend-site
+        vk8s_networks: {}
+  no_tls: {}
+  port: 9080
+  same_as_endpoint_port: {}
+  healthcheck: null
+  loadbalancer_algorithm: ROUND_ROBIN
+  endpoint_selection: LOCAL_PREFERRED
+  advanced_options: null
+resource_version: null

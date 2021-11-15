@@ -1,0 +1,42 @@
+metadata:
+  name: ratings
+  namespace: demo-japan
+  labels: {}
+  annotations: {}
+  description: null
+  disable: null
+spec:
+  domains:
+    - ratings
+  http:
+    ? dns_volterra_managed
+  advertise_custom:
+    advertise_where:
+      - virtual_site:
+          network: SITE_NETWORK_SERVICE
+          virtual_site:
+            namespace: demo-japan
+            name: middle-site
+        port: 9080
+  default_route_pools:
+    - pool:
+        namespace: demo-japan
+        name: ratings
+      weight: 0
+      endpoint_subsets: {}
+  routes: null
+  cors_policy: null
+  disable_waf: {}
+  add_location: null
+  no_challenge: {}
+  more_option: null
+  user_identification: null
+  disable_rate_limit: {}
+  malicious_user_mitigation: null
+  waf_exclusion_rules: null
+  blocked_clients: null
+  trusted_clients: null
+  ddos_mitigation_rules: null
+  service_policies_from_namespace: {}
+  round_robin: {}
+resource_version: null

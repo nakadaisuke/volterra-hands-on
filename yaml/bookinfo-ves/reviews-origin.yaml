@@ -1,0 +1,25 @@
+metadata:
+  name: reviews
+  namespace: demo-japan
+  labels: {}
+  annotations: {}
+  description: null
+  disable: null
+spec:
+  origin_servers:
+    - labels: {}
+      k8s_service:
+        service_name: reviews.demo-japan
+        site_locator:
+          virtual_site:
+            namespace: demo-japan
+            name: middle-site
+        vk8s_networks: {}
+  no_tls: {}
+  port: 9080
+  same_as_endpoint_port: {}
+  healthcheck: null
+  loadbalancer_algorithm: ROUND_ROBIN
+  endpoint_selection: LOCAL_PREFERRED
+  advanced_options: null
+resource_version: null
