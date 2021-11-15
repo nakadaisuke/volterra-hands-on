@@ -41,7 +41,7 @@ Virtual-site
 設定項目
 
 * Hostname: `vm-site1`または`vm-site2`
-* Certified hardware: `vmware-regular-nic-voltmesh`
+* Certified hardware: `vmware-voltstack-combo`
 * Token: `テナントのToken`
 * Latitude, Longnitude: `任意の緯度経度`
 

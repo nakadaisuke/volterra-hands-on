@@ -20,6 +20,5 @@
 1. [vesctlの使用方法](<./how_to_use_vesctl.md>)
 1. [Siteの作成(Multi NIC/Managed K8s/GPUなど)](<./how_to_create_site.md>)
 1. [Site to Siteの暗号化トンネル通信](<./how_to_create_site_2_site.md>)
-1. Service policy/Network policyによる通信制御
-1. Forward proxyによるEgress 制御
 1. [Multi cluster Service MeshとService Mesh Graph](<./how_to_create_multi_cluster_sm.md>)
+1. [API可視化とふるまい検知](<./how_to_create_ai_ml.md>)
