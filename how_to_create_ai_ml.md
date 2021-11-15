@@ -2,7 +2,7 @@
 
 ## AI & MLの作成
 
-AI & MLはメトリックやログを元にデータの可視化や振る舞い検知を行います。`app setting`で作成したオブジェクト名をHTTP Load balancerやKubernetes Serviceのラベルに `ves.io/app_type: name`として設定すると、自動で井にデータを収集して解析します。
+AI & MLはメトリックやログを元にデータの可視化や振る舞い検知を行います。`app setting`で作成したオブジェクト名をHTTP Load balancerやKubernetes Serviceのラベルに `ves.io/app_type: name`として設定すると、自動でデータを収集して解析します。
 
 ここではGCPの[Microservices-demo](https://github.com/GoogleCloudPlatform/microservices-demo)でコールされるAPIを可視化するためにAI & ML の設定を行います。
 
@@ -50,10 +50,7 @@ Virtual Siteを作成します。
 ## Virtual k8sの作成
 
 Virtual k8sを作成し、上記で作成したVirtual siteをセットします。
-
 Virtual siteを確認すると、選択された実際のSiteを確認できます。
-
-![selected-vsite-site](./pics/selected-vsite-site.png)
 
 ## Kubernetes Manifestの作成
 
